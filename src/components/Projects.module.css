@@ -16,11 +16,13 @@
 	text-decoration: none;
 }
 
-.linksproject {
+.app div ul {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	gap: 25px;
+	padding-bottom: 5rem;
+	padding-top: 2rem;
 }
 .name {
 	font-size: 1.5rem;

@@ -1,5 +1,5 @@
 import styles from './About.module.css';
-import photo from '../src/assets/img/photo.png';
+import photo from '../images/photo.png';
 
 export const About = () => {
 	return (

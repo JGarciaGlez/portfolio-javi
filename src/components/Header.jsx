@@ -1,6 +1,5 @@
-import github from '../assets/img/github.svg';
-import likendin from '../assets/img/likendin.svg';
-
+import likendin from '../../src/images/likendin.svg';
+import github from '../../src/images/github.svg';
 import styles from './Header.module.css';
 
 export const Header = () => {
