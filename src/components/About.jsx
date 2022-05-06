@@ -1,10 +1,12 @@
 import styles from './About.module.css';
+import photo from '../src/assets/img/photo.png';
+
 export const About = () => {
 	return (
 		<>
 			<section className={styles.appcontent}>
 				<div className={styles.photo}>
-					<img src='../src/assets/img/photo.png' />
+					<img src={photo} />
 				</div>
 				<div>
 					<div className={styles.aboutme}>
