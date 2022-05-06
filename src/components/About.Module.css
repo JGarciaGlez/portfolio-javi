@@ -1,0 +1,34 @@
+.appcontent {
+	display: flex;
+	justify-content: center;
+	gap: 200px;
+	padding: 2rem;
+}
+
+.aboutme {
+	flex-direction: column;
+	max-width: 200px;
+}
+
+.aboutme p {
+	font-style: normal;
+	font-size: 0.9rem;
+	line-height: 1.3rem;
+}
+
+.title {
+	font-size: 1.5rem;
+}
+
+.photo {
+	flex-direction: column;
+}
+
+@media (max-width: 600px) {
+	.appcontent {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}

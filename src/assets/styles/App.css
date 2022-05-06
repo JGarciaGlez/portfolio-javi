@@ -13,51 +13,6 @@
 	font-family: SF Pro Display, sans-serif;
 }
 
-.app-header {
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
-	background-color: var(--headerbackground);
-	color: var(--headercolor);
-	text-align: center;
-	justify-content: center;
-	align-self: center;
-	gap: 20px;
-	padding: 0.5rem;
-}
-
-.app-header h1,
-h2 {
-	letter-spacing: 0.2rem;
-	padding: 0.5rem;
-}
-
-.app-content {
-	display: flex;
-	justify-content: center;
-	gap: 200px;
-	padding: 2rem;
-}
-
-.title {
-	font-size: 1.5rem;
-}
-
-.photo {
-	flex-direction: column;
-}
-
-.aboutme {
-	flex-direction: column;
-	max-width: 200px;
-}
-
-.aboutme article {
-	font-style: normal;
-	font-size: 0.6rem;
-	line-height: 1.3rem;
-}
-
 .title {
 	font-size: 0.8rem;
 	line-height: 1.2rem;
@@ -66,10 +21,6 @@ h2 {
 .app-footer {
 	text-align: center;
 	padding-top: 5rem;
-}
-
-.frontend {
-	color: var(--bluecolor);
 }
 
 .links a img {
@@ -84,51 +35,4 @@ h2 {
 
 li {
 	list-style: none;
-}
-
-.links {
-	display: flex;
-	justify-content: center;
-	gap: 15px;
-}
-
-.line {
-	display: block;
-	justify-content: center;
-	align-self: center;
-	width: 5rem;
-	height: 0.1rem;
-	background: var(--bluecolor);
-}
-
-.project {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	width: 100%;
-	align-items: center;
-	justify-content: space-around;
-	gap: 20px;
-}
-
-.grass {
-	max-width: 280px;
-	max-height: 400px;
-	background: rgba(133, 145, 202, 0.2);
-	border-radius: 16px;
-	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-	backdrop-filter: blur(5px);
-	-webkit-backdrop-filter: blur(5px);
-	border: 1px solid rgba(133, 145, 202, 0.3);
-	height: 5rem;
-	text-decoration: none;
-}
-.grass:hover {
-	transition: 0.8s;
-	background: hsla(236, 81%, 18%, 0.7);
-	border: 1px solid rgb(11, 35, 100);
-}
-
-.linksproject {
-	display: block;
 }

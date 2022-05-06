@@ -1,0 +1,32 @@
+.appheader {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	background-color: var(--headerbackground);
+	color: var(--headercolor);
+	text-align: center;
+	justify-content: center;
+	align-self: center;
+	gap: 20px;
+	padding: 0.5rem;
+}
+
+.appheader h1,
+h2 {
+	letter-spacing: 0.2rem;
+	padding: 0.5rem;
+}
+
+.frontend {
+	color: var(--bluecolor);
+}
+.links {
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+}
+
+.github {
+	height: 2rem;
+	width: 2rem;
+}

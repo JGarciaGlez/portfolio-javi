@@ -1,0 +1,57 @@
+.linksproject {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 25px;
+}
+.grass {
+	max-width: 350px;
+	max-height: 800px;
+	background: rgba(133, 145, 202, 0.2);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border: 1px solid rgba(133, 145, 202, 0.3);
+	text-decoration: none;
+}
+
+.linksproject {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 25px;
+}
+.name {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+.name,
+.description {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding: 1rem;
+	margin: 0;
+}
+
+.description {
+	font-size: 1rem;
+}
+@media (max-width: 600px) {
+	.app div ul {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap: 25px;
+		margin-top: 2rem;
+		align-items: center;
+	}
+	.grass {
+		max-height: 900px;
+		padding: 1rem;
+	}
+	.app {
+		padding-bottom: 5rem;
+	}
+}

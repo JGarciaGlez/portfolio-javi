@@ -1,24 +1,22 @@
+import styles from './About.module.css';
 export const About = () => {
 	return (
 		<>
-			<section className='app-content'>
-				<div className='photo'>
-					<h3>foto javiiii</h3>
+			<section className={styles.appcontent}>
+				<div className={styles.photo}>
+					<img src='../src/assets/img/photo.png' />
 				</div>
 				<div>
-					<div className='aboutme'>
+					<div className={styles.aboutme}>
 						<h3 className='who'>
-							Quién soy yo.<span className='line'></span>
+							Who I am.<span className={styles.line}></span>
 						</h3>
 						<article>
-							<h2 className='title'>
-								Soy Javier García, un desarrollador FrontEnd web.
+							<h2 className={styles.title}>
+								I'm Javier García, FrontEnd Web Developper.
 							</h2>
-							<p>Mis habilidades son: Html5,Css3(Bootstrap,Sass),React.</p>
-							<p>
-								Me gusta desarrollar webs y optimizar-las para que carguen
-								rapidísimo.
-							</p>
+							<p>My skills are: Html5,Css3(Bootstrap,Sass),React.</p>
+							<p>I like develop websites.</p>
 						</article>
 					</div>
 				</div>
